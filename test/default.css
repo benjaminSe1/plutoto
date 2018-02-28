@@ -1,0 +1,63 @@
+body { 
+    background-image:  url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.li_sombre{
+    background: #C2C2D4;
+}
+.li_claire{
+    background: #ECECED;
+}
+
+.ul_autocomplet_item{
+    list-style: none;
+}
+.ul_autocomplet_item li:hover {
+    background: #A3E0FF;
+}
+.ul_autocomplet_item{
+    display: none;
+    position: fixed;
+}
+
+
+
+
+.jumbotron{
+padding: 5px;
+margin : 30px;
+border-radius :10px;
+box-shadow:1px 1px 12px #ff004c;
+}
+@font-face {
+    font-family: 'lobster'; /*a name to be used later*/
+    src: url('../fonts/fontLabSource/lobster.vfb'); /*URL to font*/
+}
+.plutoto .col-md-7{
+	background: Orange;
+	border-radius: 8px;
+}
+
+.col-md-3{
+	padding-top: 10%;
+	border-radius: 8px;
+}
+a .row{
+	color: Black;
+}
+	
+.jubotron .row .col-md-2{
+	color : DarkOrange;
+}
+.jobotron .row .col-md-12{
+	color: DarkOrange;
+}
+.jubotron a{
+	color: Black;
+}
+
+.col-md-6 .text-center .form-group{
+	width: 200%;
+}
